@@ -1,0 +1,416 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title>Lu Tang | Home</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	 <style type="text/css">
+	.collapseblock {display:none}
+	.expandblock {display:inline}
+	</style>
+
+	<script type="text/Javascript"> 
+	function toggleblocks (postid) {
+		var whichpost = document.getElementById(postid);
+		if (whichpost.className=="expandblock") {
+			whichpost.className="collapseblock";
+		} else {
+			whichpost.className="expandblock";
+		}
+	}
+	</script>
+
+  <script type="text/Javascript"> 
+  function expandblocks (postid) {
+    var whichpost = document.getElementById(postid);
+    whichpost.className="expandblock";
+  }
+  </script>
+
+
+<!-- ABCDEFG -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68540400-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+	
+
+<div id="space-for-ie"></div>
+
+
+
+<!-- Begin #content - Centers all content and provides edges for floated columns -->
+
+<div id="content">
+
+ 
+
+<!-- Blog Header -->
+
+<div id="header"><div>
+	
+	<dt class="profile-img"></dt>
+
+  <h1 id="blog-title">Lu Tang</h1>
+  <h2 id="blog-subtitle">A Ph.D. Candidate</h2>
+  <p id="description"></p>
+
+</div></div>
+
+
+
+
+
+<!-- Begin #main - Contains main-column blog content -->
+
+<div id="main"><div id="main2"><div id="main3">
+
+
+
+  <div class="post">
+    <h3 class="post-title">About Me</h3>
+
+    <div class="post-body">I am currently an Ph.D. Candidate in the <a href="http://sph.umich.edu/biostat/" target="_blank">Department of Biostatistics</a> at the <a href="http://umich.edu" target="_blank">University of Michigan</a>. My thesis advisor is Professor <a href="http://www-personal.umich.edu/~pxsong/" target="_blank">Peter X.K. Song</a>. I am especially interested in developing new methods for Big Data, for example, scalable and numerically stable methods for doing regression and machine learning. Besides my dissertation research, I work as a data manager and analyst in the Data Management and Modeling Core of the <a href="https://sph.umich.edu/cehc/index.html" target="_blank">Children's Environmental Health and Disease Prevention Center</a> of the University of Michigan.   </div>
+
+    <div class="post-body">Method Interests: Machine Learning, High-Dimensional Regression, Clustering, Variable Selection, Statistical Inference, Statistical Computing, Optimization.</div>
+    
+    <div class="post-body">Application Interests: Integrating Heterogeneous Data, Metabolomics Network, Accelerometry Data, Children's Health-Related Studies, Information Retrieval, Statistical Quality Control.</div>
+
+	<div class="post-body">
+		<h4>Doctoral Dissertation Research:</h4>
+		<ul>
+      <li>
+        Develop and implement statistical methods for regression coefficient clustering in data integration. Applications include quantification of data heterogeneity, clustering of longitudinal patient trajectories, and detection of outlying studies.
+      </li>
+      <li>
+        An R pacakge <a href="https://cran.r-project.org/web/packages/metafuse/index.html" target="_blank">metafuse</a> has been developed for the above purpose.
+      </li>           
+      <li>
+        Efficient and robust divide-and-conquer methods for generalized linear regression with variable selection and inference.
+      </li>       
+		</ul>
+	</div>
+  </div>
+
+<!--
+    <div class="post">
+      <h3 class="post-title">Education</h3>
+      <div class="post-body">
+      <ul>
+        <li><a href="http://www.umich.edu" target="_blank">University of Michigan</a> - Ph.D. in Biostatistics (expected 2018)</li>
+        <li><a href="http://www.virginia.edu" target="_blank">University of Virginia</a> - M.S. in Statistics (2013)</li>
+        <li><a href="http://www.virginia.edu" target="_blank">University of Virginia</a> - B.A. in Mathematics, minor in Computer Science (2012)</li>
+      </ul>
+      </div>
+    </div>
+-->
+
+    <div class="post">
+      <h3 class="post-title"><a href="javascript:toggleblocks('education');">Education</a></h3>
+      <div class="post-body">
+        <div style="clear: both;">
+
+          <div class="collapseblock" id="education">
+            <ul>
+              <li><a href="http://www.umich.edu" target="_blank">University of Michigan</a> - Ph.D. in Biostatistics (expected 2018)</li>
+              <li><a href="http://www.virginia.edu" target="_blank">University of Virginia</a> - M.S. in Statistics (2013)</li>
+              <li><a href="http://www.virginia.edu" target="_blank">University of Virginia</a> - B.A. in Mathematics, minor in Computer Science (2012)</li>
+            </ul>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+
+<!--
+    <div class="post">
+      <h3 class="post-title">Publications</h3>
+      <div class="post-body">
+            <ul class="pub-body">
+              <li class="pub">
+                <span class="pubtitle">Fused Lasso Approach in Regression Coefficients Clustering -- Learning Parameter Heterogeneity in Data Integration</span>
+                <br>
+                <a href="http://www.jmlr.org/papers/volume17/15-598/15-598.pdf" target="_blank">[Link]</a>
+                <span> -- Tang, L., and Song, P.X.K.</span>
+                <br>
+                <span style="font-weight:bold">2016</span>
+                <span> -- Journal of Machine Learning Research</span>
+              </li>
+
+              <li class="pub">
+                <span class="pubtitle">Lipid Metabolism is a Key Mediator of Developmental Epigenetic Programming</span>
+                <br>
+                [To appear]
+                <span> -- Marchlewicz, E.H., Dolinoy, D.C., Tang, L., Milewski, S., Jones, T.R., Goodrich, J.M., Soni, T., Domino, S.E., Song, P.X.K., Burant, C. and Padmanabhan, V.</span>
+                <br>
+                <span style="font-weight:bold">2016</span>
+                <span> -- Scientific Reports</span>
+              </li>
+
+              <li class="pub">
+                <span class="pubtitle">A LASSO Method to Identify Protein Signature Predicting Post-transplant Renal Graft Survival</span>
+                <br>
+                <a href="http://link.springer.com/article/10.1007/s12561-016-9170-z" target="_blank">[Link]</a>
+                <span> -- Zhou, L., Tang, L., Song, A.T., Cibrik, D., and Song, P.X.K.</span>
+                <br>
+                <span style="font-weight:bold">2016</span>
+                <span> -- Statistics in Biosciences</span>
+              </li>              
+
+              <li class="pub">
+                <span class="pubtitle">Automatic Quality Control of Transportation Reports Using Statistical Language Processing</span>
+                <br>
+                <a href="files/Crash_Report_Paper.pdf" target="_blank">[Link]</a>
+                <span> -- Gerber, M.S., and Tang, L.</span>
+                <br>
+                <span style="font-weight:bold">2013</span>
+                <span> -- IEEE Transactions on Intelligent Transportation Systems</span>
+              </li>        
+            </ul>
+      </div>
+    </div>
+-->    
+
+  <a name="publication"></a> 
+
+    <div class="post">
+      <h3 class="post-title"><a href="javascript:toggleblocks('publications');">Publications</a></h3>
+      <div class="post-body">
+        <div style="clear: both;">
+
+          <div class="collapseblock" id="publications">
+            <ul class="pub-body">
+              <li class="pub">
+                <span class="pubtitle">Fused Lasso Approach in Regression Coefficients Clustering -- Learning Parameter Heterogeneity in Data Integration</span>
+                <br>
+                <a href="http://www.jmlr.org/papers/volume17/15-598/15-598.pdf" target="_blank">[Link]</a>
+                <span> -- Tang, L., and Song, P.X.K.</span>
+                <br>
+                <span style="font-weight:bold">2016</span>
+                <span> -- Journal of Machine Learning Research</span>
+              </li>
+
+              <li class="pub">
+                <span class="pubtitle">Lipid Metabolism is a Key Mediator of Developmental Epigenetic Programming</span>
+                <br>
+                <a href="http://www.nature.com/articles/srep34857" target="_blank">[Link]</a>
+                <span> -- Marchlewicz, E.H., Dolinoy, D.C., Tang, L., Milewski, S., Jones, T.R., Goodrich, J.M., Soni, T., Domino, S.E., Song, P.X.K., Burant, C. and Padmanabhan, V.</span>
+                <br>
+                <span style="font-weight:bold">2016</span>
+                <span> -- Scientific Reports</span>
+              </li>
+
+              <li class="pub">
+                <span class="pubtitle">A LASSO Method to Identify Protein Signature Predicting Post-transplant Renal Graft Survival</span>
+                <br>
+                <a href="http://link.springer.com/article/10.1007/s12561-016-9170-z" target="_blank">[Link]</a>
+                <span> -- Zhou, L., Tang, L., Song, A.T., Cibrik, D., and Song, P.X.K.</span>
+                <br>
+                <span style="font-weight:bold">2016</span>
+                <span> -- Statistics in Biosciences</span>
+              </li>              
+
+              <li class="pub">
+                <span class="pubtitle">Automatic Quality Control of Transportation Reports Using Statistical Language Processing</span>
+                <br>
+                <a href="files/Crash_Report_Paper.pdf" target="_blank">[Link]</a>
+                <span> -- Gerber, M.S., and Tang, L.</span>
+                <br>
+                <span style="font-weight:bold">2013</span>
+                <span> -- IEEE Transactions on Intelligent Transportation Systems</span>
+              </li>        
+            </ul>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="post">
+    <h3 class="post-title"><a href="javascript:toggleblocks('software');">Software</a></h3> 
+  
+    
+    <div style="clear: both;">
+      <div class="post-body" style="overflow:auto">
+    <div id="software" class="collapseblock">
+      <ul class="pub-body">
+
+        <li class="pub"> 
+          <span class="pubtitle">
+             R package 'metafuse'
+          </span> (downloaded more than 1700 times)<br>
+          <span>Used for regression coefficients clustering when doing data integration. If data are heterogeneous, it is able to provide visualization of subset clustering pattern by heirarchical dendrogram and output coefficient estimats. <a href="https://cran.r-project.org/web/packages/metafuse/index.html" target="_blank">[Link]</a></span>
+        </li>
+
+      </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--
+  <div class="post">
+    <h3 class="post-title"><a href="javascript:toggleblocks('videos');">Awards</a></h3>	
+	
+    
+    <div style="clear: both;">
+      <div class="post-body" style="overflow:auto">
+		<div id="videos" class="collapseblock">
+			<ul class="pub-body">
+
+				<li class="pub"> 
+					<span class="pubtitle">
+						 The International Biometric Society Eastern North American Region (ENAR) Poster Award, ENAR Spring Meeting, Miami, FL, 2015
+					</span><br>
+					<a href='files/FLARCC_Poster.pdf' target="_blank">Regularized Lasso Approach for Parameter Fusion in Data Harmonization</a>
+				</li>
+        <li class="pub"> 
+          <span class="pubtitle">
+             University of Michigan Rackham Conference Travel Grant, 2014, 2015
+          </span>
+        </li>
+        <li class="pub"> 
+          <span class="pubtitle">
+             University of Virginia Department of Statistics Outstanding Student Scholarship, 2012
+          </span>
+        </li>
+        <li class="pub"> 
+          <span class="pubtitle">
+             Sun Yat-sen University Merit-based Scholarship, 2009
+          </span>
+        </li>
+
+
+			</ul>
+ 	    </div>
+      </div>
+    </div>
+  </div>
+-->
+
+<!--
+  <div class="post">
+    <h3 class="post-title"><a href="javascript:toggleblocks('linksinfo');">Other Info</a></h3>
+
+    <div class="post-body">
+      <div style="clear: both;">
+    		<div id="linksinfo" class="collapseblock">
+        	<ul>
+            <li>I grew up in Guangzhou, China, and I speak fluent Mandarin and Cantonese. I have been studying in the US since 2010.</li>
+            <li>Here are my <a href="https://www.linkedin.com/in/lutang44/" target="_blank">LinkedIn</a> and <a href="https://www.facebook.com/jimmytl/" target="_blank">Facebook</a> 
+            profiles.</li>
+            <li>I am a graduate student body representative of the University of Michigan <a href="https://rsg.umich.edu/" target="_blank">Rackham Student Government</a>.</li> 
+        	</ul>
+    	  </div> 
+      </div>
+    </div>
+  </div>
+-->
+    <div class="post">
+      <h3 class="post-title">Random Stuff</h3>
+      <div class="post-body">
+          <ul>
+            <li>I grew up in <a href="https://en.wikipedia.org/wiki/Guangzhou" target="_blank">Guangzhou, China</a> <a href="https://www.google.com/maps/@23.1374491,113.2856205,13.5z" target="_blank">[see on map]</a>, and speak fluent Mandarin and Cantonese. I have been studying in the US since 2010, long enough that I can live with only pizza and sandwiches.</li>
+            <li>I help created our <a href="http://www.umich.edu/~songlab/" target="_blank">lab's website</a>. The Song Lab for data science.</li>
+            <li>I was once a graduate student body representative at the U of M <a href="https://rsg.umich.edu/" target="_blank">Rackham Student Government</a>.</li> 
+            <li>I just got married :))</li> 
+          </ul>
+      </div>
+    </div>
+
+
+
+
+    <div class="post">
+      <div class="post-body">
+        <!--   <p><script type="text/javascript" src="js_lus.js"></script></p>   -->
+        <div id="textbox">
+          <p class="alignleft">This page was last modified on: 10/23/2016</p>
+        </div>      
+      </div> <!-- wrapper -->
+    </div> <!-- content_holder -->
+
+
+
+</div></div></div>
+
+<!-- End #main -->
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+
+<div id="sidebar">
+
+  
+  <!-- Begin .box -->
+<div class="box"><div class="box2"><div class="box3">
+	<img src="files/IMG_7539.JPG" width=190px alt="HeadShot" style="margin-top:-105px; margin-bottom:20px;"/>
+
+
+   <span class="sidebar-title">Name:</span> Lu Tang (唐路) <br>
+   <span class="sidebar-title">Email:</span>    
+      <script>
+        // this script prevents email links from being scrubbed
+        var username = "lutang"; // portion of email address before the @ sign goes here
+        var hostname = "umich.edu"; // domain name part of email address goes here
+        var linktext = username + "@" + hostname;
+        document.write("<a href=" + "mail" + "to:" + username +
+        "@" + hostname + ">" + linktext + "</a>")
+      </script></p>
+   <br>
+   <span class="sidebar-title">Address:</span> <br> Department of Biostatistics <br>
+    University of Michigan <br>
+    1415 Washington Heights <br>
+    Ann Arbor, MI 48109 <br> <br>
+   <span class="sidebar-title">Publications:</span> <a href="#publication" onclick="javascript:expandblocks('publications');">here</a>
+   <br>    
+   <span class="sidebar-title">Curriculum Vitae:</span> <a href="files/Lu_Tang_CV.pdf" target="_blank">here</a>
+   <br>
+   <span class="sidebar-title">Google Scholar:</span> <a href="https://scholar.google.com/citations?user=lD6kQl8AAAAJ&hl=en" target="_blank">here</a>
+   <br>
+   <br>
+   <span class="sidebar-title">Online footprints:</span><br>
+   <a href="https://www.linkedin.com/in/lutang44/" target="_blank">LinkedIn</a>, <a href="https://www.facebook.com/jimmytl/" target="_blank">Facebook</a>, <a href="https://twitter.com/huluwa44" target="_blank">Twitter</a>
+
+  
+
+  </div></div></div>
+
+  <!-- End .box -->
+
+</div>
+
+<!-- End #sidebar -->
+
+
+
+
+
+
+</div>
+
+<!-- End #content -->
+
+
+
+</body></html>
