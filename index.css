@@ -12,13 +12,13 @@ body {
 
 
 #content {
-  width:900px;
+  width:1050px;
   padding:20px ;
   margin:0 auto;
   text-align:left;
   }
 #main {
-  width:670px;
+  width:820px;
   float:left;
   background:#eec no-repeat left bottom;
   margin:15px 0px 40px 0px;
@@ -29,7 +29,7 @@ body {
   list-style-type: none;
   }
 #mainfull {
-  width:740px;
+  width:890px;
   float:left;
   background:#eec no-repeat left bottom;
   margin:15px 0 0;
@@ -97,7 +97,7 @@ a img {
 /*  background:#357 url("corners_cap_bot.gif") no-repeat left bottom;*/
   margin:0 0 0;
   padding:0 0 8px;
-  color:#fff;   /* #fff */
+  color:#ffcb05;   /* #fff */
   }
 #header div {
   background:no-repeat left top;
@@ -106,13 +106,13 @@ a img {
   }
 #blog-title {
   margin:0;
-  padding:5px 50px 0px;
+  padding:5px 15px 0px;
   font-size:230%;
   line-height:1em;
   }
 #blog-subtitle {
   margin:0;
-  padding:10px 50px 5px;
+  padding:10px 15px 5px;
   font-size:150%;
   line-height:1em;
   }
@@ -207,9 +207,9 @@ html>body a.comment-link {
   padding-left:14px;
   }
 .post img {
-  margin:0 0 5px 0;
-  padding:4px;
-  border:1px solid #586;
+  margin:0 0 0 0;
+  padding:0px;
+  border:0px solid #586;
   }
 blockquote {
   margin:.75em 0;
